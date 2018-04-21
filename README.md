@@ -7,7 +7,7 @@ First we define a Context Provider `BootstrapContext.js` that exports BootstrapP
 Later we make use of React Higher Order Components to make a wrapper `WithBootstrap.js` for our Components that we use as a Decorator.
 
 BootstrapContext.js
-```
+```javascript
 import React, {Component} from 'react';
 
 const {Provider, Consumer} = React.createContext();
@@ -24,7 +24,7 @@ export const BootstrapConsumer = Consumer;
 ```
 
 WithBootstrap.js
-```
+```javascript
 import React, {Component} from 'react';
 
 import {BootstrapConsumer} from 'Context/BootstrapContext';
@@ -45,7 +45,7 @@ export default function withBootstrap(WrappedComponent) {
 ```
 
 App.js
-```
+```javascript
 import React, {Component} from 'react';
 
 import HomePage from 'Pages/HomePage';
@@ -64,7 +64,7 @@ export default class App extends Component {
 ```
 
 HomePage.js
-```
+```javascript
 import React, {Component} from 'react';
 
 import WithBootstrap from '../util/WithBootstrap';
