@@ -1,0 +1,9 @@
+{
+  "name": "react-bootstrap-decorator",
+  "version": "1.0.0",
+  "description": "React Bootstrap Context Provider using Higher Order Component as a Decorator.",
+  "main": "index.js",
+  "repository": "https://github.com/mrzarkovic/react-bootstrap-decorator",
+  "author": "Milos Zarkovic <mzarkovicm@gmail.com>",
+  "license": "MIT"
+}
